@@ -1,0 +1,33 @@
+.productContainer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tables{
+    padding: 5%;
+}
+.inputContainer{
+    padding:  20px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.inputFilds{
+    background-color: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.inputFilds input,select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 700px;
+}

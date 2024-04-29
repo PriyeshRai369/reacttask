@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.nav .navLinks ul{
+    display: flex;
+    gap: 20px;
+}
+.nav .navLinks ul li a .btn{
+    width: 120px;
+    height: 40px;
+    border: 2px solid ;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #333;
+    transition: background-color .8s;
+    font-weight: 600;
+}
+.nav .navLinks ul li a .secBtn{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+.nav .navLinks ul li a .btn:hover{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+@media (max-width:600px) {
+    .nav{
+        padding: 1.5rem 2rem;
+    }
+    .nav .navLinks ul li a .btn{
+        width: 80px;
+        font-size: 1rem;
+    }
+}

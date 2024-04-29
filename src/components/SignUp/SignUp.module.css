@@ -1,0 +1,70 @@
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin-bottom: 50px;
+}
+.formContainer .formBox{
+    width: 800px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+}
+.formContainer .formBox .imgPart{
+    width: 50%;
+    height: 110%;
+    border-radius: 20px 0 0 0;
+    background-image: url('../images/Coffee.png');
+    background-position: center;
+    background-size: cover;
+} 
+.formContainer .formBox .inputContainer{
+    padding: 50px 20px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.formContainer .formBox .inputContainer .inputFilds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 40px 0;
+}
+.formContainer .formBox .inputContainer .inputFilds input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    transition:background-color .8s ;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:600px) {
+    .formContainer .formBox .imgPart{
+        display: none;
+    }
+    .formContainer .formBox .inputContainer{
+        padding: 50px 20px;
+        width: 100%;
+        height: 100%;
+    }
+}
